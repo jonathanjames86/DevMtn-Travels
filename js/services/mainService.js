@@ -25,4 +25,11 @@ angular.module('devmtnTravel').service('mainSrv', function(){
 
 
     }]
+
+this.travI = function(){
+  return this.travelInfo;
+}
+
+
+
 })
